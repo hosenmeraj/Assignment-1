@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    border-left: 5px solid ;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+    line-height: 3rem;
+}
+h1{
+    font-size: 50px;
+}
+section{
+   margin-bottom: 100px;
+}
+.orange{
+    color: orange; 
+}
+.flexible{
+    width: 90%;
+    display: flex;
+    margin: 5%;
+}
+.half-side{
+    width: 50%;
+}
+.half-side img{
+    width: 65%;
+    margin-left: 50px;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+}
+.top-banner p{
+    font-size: 15px;
+    margin-bottom: 30px;  
+}
+.mission-heading{
+    text-align: center;
+}
+.mission-item{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  
+}
+.mission-extrem{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mission-img{
+    width: 50%;
+}
+.mission-extrem h3{
+    text-align: left;
+    padding: 20px;
+}
+.mission-extrem p{
+    text-align: justify;
+}
+#mision-color1{
+    background-color: #AEFEFF;
+    border-radius: 10px;
+}
+#mision-color2{
+    background-color: #FFF89A;
+    border-radius: 10px;
+}
+#mision-color3{
+    background-color: #F6F2D4;
+    border-radius: 10px;
+}
+.develop{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 120px;
+}
+.develop p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.global-community p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+footer p{
+    color: #95D1CC;
+    font-size: 13px;
+}
+
